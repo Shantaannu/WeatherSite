@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Courier, monospace;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 550px;
+    /* background: rgb(34, 193, 195); */
+    /* background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%); */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+/*  Editing Search Bar */
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#Sbar {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+#Sbar:hover {
+    background-color: lightgray;
+}
+
+input#Sbar {
+    color: black;
+    font-weight: 500;
+    border: none;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.search button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 0px 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search button:hover {
+    background-color: lightgray;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* weatherImg or Weather Update */
+
+.weatherImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherImg img {
+    width: 180px;
+    height: 180px;
+}
+
+/* update Temprature  */
+
+.Temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* Upadte City */
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+/* Card Down part  */
+
+.cdwn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.cdwnText
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.cdwnText p
+{
+    margin: 0px 26px;
+}
+
+.humidityTemp
+{
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.humidityImg img {
+    width: 49px;
+    /* 79 x 66*/
+    height: 36px;
+}
+
+.windTemp
+{
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.windsImg img{
+    width: 49px;
+    /* 79 x 66*/
+    height: 36px;
+}
+
